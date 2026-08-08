@@ -7,7 +7,7 @@ $css = $domain . 'src/css/';
 $js = $domain . 'src/js/';
 
 $brand = 'Aprilia Trans';
-$logo = $img . 'logo.webp';
+$logo = $img . 'logo-asli.webp';
 $title = $brand . ' Solusi Travel Tuban No #1';
 $desc = $brand . ' akan membantu perjalanan Travel Tuban ke Surabaya, Juanda, Malang, Semarang, Bali, Jakarta, Jogja dan sebaliknya';
 
@@ -17,7 +17,7 @@ $maps = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3959.982090285783
 
 $whatsapp = 'https://wa.me/' . preg_replace('/[^0-9]/', '', $phone)
   . '?text=' . urlencode(
-    "Halo admin $domain"
+    "Halo admin $brand"
   );
 
 $menu = [
@@ -57,80 +57,60 @@ $kekurangan = [
 
 $rute = [
   [
-    'kota' => 'Cianjur - Jabodetabek',
+    'kota' => 'Tuban - Surabaya',
     'rute' => [
-      'Cianjur ke Jabodetabek',
-      'Jabodetabek ke Cianjur',
+      'Dari Tuban ke Surabaya',
+      'Dari Surabaya ke Tuban',
     ],
-    'gambar' => 'cianjur.webp',
+    'gambar' => 'surabaya.webp',
   ],
   [
-    'kota' => 'Sukabumi - Jabodetabek',
+    'kota' => 'Tuban - Bandara Juanda',
     'rute' => [
-      'Sukabumi ke Jabodetabek',
-      'Jabodetabek ke Sukabumi',
+      'Dari Tuban ke Bandara Juanda',
+      'Dari Bandara Juanda ke Tuban',
     ],
-    'gambar' => 'sukabumi.webp',
+    'gambar' => 'bandara-juanda.webp',
   ],
   [
-    'kota' => 'Jakarta ke Cianjur & Sukabumi',
+    'kota' => 'Tuban - Malang',
     'rute' => [
-      'Jakarta ke Cianjur',
-      'Cianjur ke Jakarta',
-      'Jakarta ke Sukabumi',
-      'Sukabumi ke Jakarta',
+      'Dari Tuban ke Malang',
+      'Dari Malang ke Tuban',
+    ],
+    'gambar' => 'malang.webp',
+  ],
+  [
+    'kota' => 'Tuban - Semarang',
+    'rute' => [
+      'Dari Tuban ke Semarang',
+      'Dari Semarang ke Tuban',
+    ],
+    'gambar' => 'semarang.webp',
+  ],
+  [
+    'kota' => 'Tuban - Bali',
+    'rute' => [
+      'Dari Tuban ke Bali',
+      'Dari Bali ke Tuban',
+    ],
+    'gambar' => 'bali.webp',
+  ],
+  [
+    'kota' => 'Tuban - Jakarta',
+    'rute' => [
+      'Dari Tuban ke Jakarta',
+      'Dari Jakarta ke Tuban',
     ],
     'gambar' => 'jakarta.webp',
   ],
   [
-    'kota' => 'Bandara Soetta ke Cianjur & Sukabumi',
+    'kota' => 'Tuban - Jogja',
     'rute' => [
-      'Bandara Soetta ke Cianjur',
-      'Cianjur ke Bandara Soetta',
-      'Bandara Soetta ke Sukabumi',
-      'Sukabumi ke Bandara Soetta',
+      'Dari Tuban ke Jogja',
+      'Dari Jogja ke Tuban',
     ],
-    'gambar' => 'soetta.webp',
-  ],
-  [
-    'kota' => 'Bogor ke Cianjur & Sukabumi',
-    'rute' => [
-      'Bogor ke Cianjur',
-      'Cianjur ke Bogor',
-      'Bogor ke Sukabumi',
-      'Sukabumi ke Bogor',
-    ],
-    'gambar' => 'bogor.webp',
-  ],
-  [
-    'kota' => 'Depok ke Cianjur & Sukabumi',
-    'rute' => [
-      'Depok ke Cianjur',
-      'Cianjur ke Depok',
-      'Depok ke Sukabumi',
-      'Sukabumi ke Depok',
-    ],
-    'gambar' => 'depok.webp',
-  ],
-  [
-    'kota' => 'Tangerang ke Cianjur & Sukabumi',
-    'rute' => [
-      'Tangerang ke Cianjur',
-      'Cianjur ke Tangerang',
-      'Tangerang ke Sukabumi',
-      'Sukabumi ke Tangerang',
-    ],
-    'gambar' => 'tangerang.webp',
-  ],
-  [
-    'kota' => 'Bekasi ke Cianjur & Sukabumi',
-    'rute' => [
-      'Bekasi ke Cianjur',
-      'Cianjur ke Bekasi',
-      'Bekasi ke Sukabumi',
-      'Sukabumi ke Bekasi',
-    ],
-    'gambar' => 'bekasi.webp',
+    'gambar' => 'jogja.webp',
   ],
 ];
 
@@ -168,50 +148,49 @@ $armada = [
 
 $testimoni = [
   [
-    "Saya sering bepergian untuk urusan kerja dan layanan ini selalu bisa diandalkan. Driver tepat waktu, kendaraan nyaman, dan perjalanan terasa lebih praktis.",
-    "Andi Pratama - Staf Administrasi"
+    "Pelayanannya dari $brand sangat memuaskan. Driver ramah, datang tepat waktu, dan kendaraan nyaman selama perjalanan. Sangat membantu untuk perjalanan antar kota.",
+    "Budi Santoso - Karyawan Swasta"
   ],
   [
-    "Proses pemesanan sangat mudah dan respon admin cepat. Saya dijemput sesuai jadwal dan diantar sampai tujuan tanpa kendala.",
-    "Maya Lestari - Pegawai Bank"
+    "Booking sangat mudah dan admin cepat merespons. Proses penjemputan di Tuban sesuai jadwal dan perjalanan terasa aman serta nyaman sampai Bandara Juanda.",
+    "Siti Rahma - Pegawai"
   ],
   [
-    "Armadanya bersih, AC dingin, dan perjalanan nyaman dari awal sampai akhir. Cocok untuk yang ingin bepergian tanpa repot.",
-    "Rian Saputra - Wirausaha"
+    "Kendaraannya bersih, AC dingin, dan kondisi armada terawat. Perjalanan jadi lebih nyaman tanpa harus repot membawa kendaraan sendiri.",
+    "Dimas Pratama - Pengusaha"
   ],
   [
-    "Saya rutin menggunakan Travel rute Cianjur - Jakarta. Selama ini pelayanannya memuaskan, penjemputan tepat waktu, dan perjalanan selalu nyaman.",
-    "Rahmat Nugraha - Teknisi"
+    "Saya beberapa kali menggunakan layanan Travel Tuban Surabaya ini untuk perjalanan antar kota. Penjemputannya tepat waktu dan pelayanannya selalu konsisten.",
+    "Agus Setiawan - Teknisi"
   ],
 ];
 
 $faq = [
   [
-    'Apakah tersedia layanan travel door to door?',
-    'Ya, ' . $brand . ' menyediakan layanan travel door to door dengan penjemputan langsung dari alamat Anda dan pengantaran sampai tujuan. Layanan ini membuat perjalanan lebih praktis tanpa perlu datang ke terminal atau titik kumpul tertentu.',
+    'Apakah tersedia layanan travel door to door dari Tuban?',
+    'Ya, ' . $brand . ' menyediakan layanan travel door to door dari Tuban ke berbagai kota tujuan. Penumpang akan dijemput langsung dari alamat yang telah ditentukan dan diantar sampai alamat tujuan, sehingga perjalanan lebih praktis tanpa perlu datang ke terminal atau titik keberangkatan tertentu.',
   ],
   [
-    'Bisakah saya memesan travel secara mendadak?',
-    'Tentu. Pemesanan mendadak tetap dapat kami layani selama kursi masih tersedia. Namun, untuk memastikan ketersediaan jadwal dan armada, kami menyarankan melakukan reservasi minimal satu hari sebelum keberangkatan.',
+    'Apa saja rute travel yang tersedia dari Tuban?',
+    $brand . ' melayani berbagai rute perjalanan dari Tuban dan sebaliknya, di antaranya travel Tuban - Surabaya, Tuban - Juanda, Tuban - Malang, Tuban - Semarang, Tuban - Jogja, Tuban - Jakarta, hingga Tuban - Bali. Ketersediaan jadwal dapat disesuaikan dengan tujuan dan armada yang tersedia.',
   ],
   [
-    'Berapa batas bagasi yang diperbolehkan?',
-    'Setiap penumpang dapat membawa satu koper atau tas besar serta satu tas kecil. Jika Anda membawa barang dalam jumlah lebih banyak atau berukuran besar, silakan informasikan kepada admin saat melakukan pemesanan.',
+    'Apakah ' . $brand . ' melayani perjalanan bisnis dari Tuban?',
+    'Ya. Selain untuk perjalanan pribadi dan keluarga, ' . $brand . ' juga cocok digunakan untuk kebutuhan bisnis seperti perjalanan dinas, kunjungan kerja, meeting, antar jemput karyawan, maupun perjalanan antar kota. Layanan dapat disesuaikan dengan kebutuhan perusahaan dan jadwal perjalanan.',
   ],
   [
-    'Apakah layanan travel beroperasi setiap hari?',
-    'Ya, layanan travel kami tersedia setiap hari untuk berbagai rute. Jadwal keberangkatan dapat berbeda tergantung tujuan dan ketersediaan armada. Hubungi admin untuk mendapatkan informasi jadwal terbaru.',
+    'Apakah bisa memesan travel Tuban secara mendadak?',
+    'Bisa, selama masih tersedia kursi dan armada untuk rute yang dipilih. Namun, untuk perjalanan seperti Tuban - Surabaya, Tuban - Juanda, atau rute jarak jauh lainnya, kami menyarankan melakukan reservasi lebih awal agar jadwal keberangkatan dan penjemputan dapat dipastikan.',
   ],
   [
-    'Bagaimana cara memesan travel?',
-    'Pemesanan dapat dilakukan dengan mudah melalui WhatsApp atau telepon ke nomor ' . $phone . '. Tim customer service kami siap membantu proses booking, konfirmasi jadwal, hingga informasi tarif perjalanan.',
+    'Bagaimana cara booking travel dari Tuban ke kota tujuan?',
+    'Pemesanan dapat dilakukan melalui WhatsApp atau telepon di nomor ' . $phone . '. Anda cukup memberikan informasi nama, lokasi penjemputan di Tuban, tujuan perjalanan, tanggal keberangkatan, dan jumlah penumpang. Admin ' . $brand . ' akan membantu memberikan informasi jadwal, tarif, dan proses reservasi.',
   ],
   [
-    'Apakah tersedia layanan charter atau sewa mobil?',
-    'Ya, selain layanan travel reguler, kami juga menyediakan layanan charter atau sewa mobil untuk perjalanan pribadi, keluarga, wisata, perjalanan dinas, maupun kebutuhan rombongan dengan harga yang kompetitif.',
+    'Apakah tersedia layanan charter atau sewa mobil untuk perjalanan bisnis?',
+    'Ya, ' . $brand . ' juga menyediakan layanan charter atau sewa kendaraan untuk kebutuhan pribadi maupun bisnis. Layanan ini dapat digunakan untuk perjalanan dinas, kunjungan perusahaan, wisata, antar jemput rombongan, hingga perjalanan dari Tuban menuju Surabaya, Juanda, Malang, Semarang, Jogja, Jakarta, dan kota lainnya.',
   ],
 ];
-
 ?>
 
 
@@ -235,7 +214,7 @@ $faq = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-NLP8BMDH');
+    })(window, document, 'script', 'dataLayer', 'GTM-WWL8B72J');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -288,10 +267,9 @@ $faq = [
 
 
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLP8BMDH"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWL8B72J"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-
 
   <header>
 
@@ -447,7 +425,7 @@ $faq = [
                 <?php endforeach; ?>
                 </ul>
                 <div class="flex justify-between items-center my-4">
-                  <span class="text-secondary font-bold">Mulai Rp ⚹⚹⚹ rb</span>
+                  <span class="text-primary font-bold">Mulai Rp ⚹⚹⚹ rb</span>
                   <span class="bg-white/20 text-white text-xs px-3 py-1 rounded-full backdrop-blur-md">Setiap Hari</span>
                 </div>
               </div>

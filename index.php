@@ -445,8 +445,9 @@ $faq = [
         <div>
           <h2 class="text-3xl font-bold mb-6 text-primary">Solusi Perjalanan Praktis</h2>
           <p class="text-slate-600 mb-8 text-lg">
-            Tidak perlu repot ke terminal atau berpindah kendaraan. Bersama <?= $brand ?>, nikmati layanan travel door to door yang praktis, nyaman, dan tepat waktu dari Cianjur menuju berbagai wilayah Jabodetabek. Kami melayani berbagai rute populer, terutama <a href="https://biotrans.id/rute/travel-cianjur-jakarta/" target="_blank" class="underline">Travel Cianjur Jakarta</a>, dengan penjemputan langsung dari lokasi Anda dan pengantaran sampai tujuan.
+            Tidak perlu repot ke terminal atau berpindah kendaraan. Bersama <?= $brand ?>, nikmati layanan travel door to door yang praktis, nyaman, dan tepat waktu dari Tuban menuju Surabaya. Kami melayani rute populer <a href="https://biotrans.id/rute/travel-tuban-surabaya/" target="_blank" class="underline">Travel Tuban Surabaya</a>, dengan penjemputan langsung dari lokasi Anda dan pengantaran sampai tujuan.
           </p>
+
 
           <div class="space-y-6">
             <?php foreach ($solusi as $key => $value) : ?>
@@ -583,9 +584,7 @@ $faq = [
         <iframe name="Maps <?= $alamat ?>" title="Maps <?= $alamat ?>" class="w-full rounded-lg brightness-50 hover:brightness-95" src="<?= $maps ?>" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
-    <div class="mt-12 pt-8 border-t border-slate-800 text-center text-slate-400">
-      <p>© <?= $brand ?>. Dikembangkan oleh <a target="_blank" class="underline" href="https://dionzebua.com">Dion Zebua</a>.</p>
-    </div>
+
   </footer>
 
   <script src="<?= $js ?>script.js" defer></script>

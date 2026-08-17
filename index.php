@@ -12,7 +12,7 @@ $title = $brand . ' Solusi Travel Tuban No #1';
 $desc = $brand . ' akan membantu perjalanan Travel Tuban ke Surabaya, Juanda, Malang, Semarang, Bali, Jakarta, Jogja dan sebaliknya';
 
 $alamat = 'Sumberagung, Kabupaten Tuban, Jawa Timur';
-$phone = '+62 838-7319-3746';
+$phone = '+62 821-3087-7954';
 $maps = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3959.982090285783!2d112.1118611!3d-7.011388899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDAnNDEuMCJTIDExMsKwMDYnNDIuNyJF!5e0!3m2!1sid!2sid!4v1786199516515!5m2!1sid!2sid';
 
 $whatsapp = 'https://wa.me/' . preg_replace('/[^0-9]/', '', $phone)

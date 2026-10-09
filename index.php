@@ -8,7 +8,7 @@ $logo = 'src/img/Logo-Romansa-Trans.webp';
 $logoPanjang = 'src/img/Logo-Romansa-Trans.webp';
 $title = $brand . " - Rute Travel Rembang Bojonegoro Tuban Lamongan Surabaya Malang.";
 $desc = $brand . ", kami menawarkan Travel di daerah Jawa Timur, terutama pada rute travel rembang bojonegoro tuban lamongan surabaya malang.";
-$telp = '0857-8526-3297';
+$telp = '0882-4252-8050';
 // $telp2 = '0857-9190-4615';
 $alamat = 'Keben, Kebonharjo, Kec. Jatirogo, Kabupaten Tuban, Jawa Timur';
 

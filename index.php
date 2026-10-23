@@ -1,18 +1,19 @@
 <?php
 
-// $domain = 'http://localhost/romansa-travel.web.id/';
-$domain = 'https://romansa-travel.web.id/';
-$brand = 'Travel bersama Romansa Travel';
+$domain = 'http://localhost/aprilia-trans.web.id.new/';
+$domain = 'https://aprilia-trans.web.id/';
+$brand = 'Travel Hari Ini bersama Aprilia Trans';
 // $logoShared = 'src/img/harga-travel.jpg';
-$logo = 'src/img/Logo-Romansa-Trans.webp';
-$logoPanjang = 'src/img/Logo-Romansa-Trans.webp';
+$logo = 'src/img/logo-asli.webp';
+$logoPanjang = 'src/img/logo-asli.webp';
 $title = $brand . " - Rute Travel Rembang Bojonegoro Tuban Lamongan Surabaya Malang.";
-$desc = $brand . ", kami menawarkan Travel di daerah Jawa Timur, terutama pada rute travel rembang bojonegoro tuban lamongan surabaya malang.";
-$telp = '0882-4252-8050';
+$desc = $brand . ", kami menawarkan Travel di daerah Jawa Timur dan Jawa Barat, terutama pada rute travel Rembang Blora Pati Bojonegoro Tuban Lamongan Surabaya Juanda Malang.";
+$telp = '0838-7319-3746';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Keben, Kebonharjo, Kec. Jatirogo, Kabupaten Tuban, Jawa Timur';
+$alamat = 'Sumberagung, Kabupaten Tuban, Jawa Timur';
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3961.2667033529897!2d111.61779762695312!3d-6.858604399999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7713003bb0a7ad%3A0x951e0097c43b05af!2sALFIN%20TRAVEL!5e0!3m2!1sen!2sid!4v1772377509306!5m2!1sen!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7919.964178871533!2d112.111861!3d-7.011389!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDAnNDEuMCJTIDExMsKwMDYnNDIuNyJF!5e0!3m2!1sid!2sid!4v1792736896245!5m2!1sid!2sid';
+
 
 function res_telp($telp)
 {
@@ -58,71 +59,150 @@ $menu = [
 
 
 $rute = [
-  "Travel Rembang Tuban",
+  "Travel Rembang Blora",
+
+  "Travel Rembang Pati",
+
   "Travel Rembang Bojonegoro",
+
+  "Travel Rembang Tuban",
+
   "Travel Rembang Lamongan",
+
   "Travel Rembang Surabaya",
+
+  "Travel Rembang Juanda",
+
   "Travel Rembang Malang",
 
-  "Travel Tuban Bojonegoro",
-  "Travel Tuban Lamongan",
-  "Travel Tuban Surabaya",
-  "Travel Tuban Malang",
+  "Travel Blora Rembang",
+
+  "Travel Blora Pati",
+
+  "Travel Blora Bojonegoro",
+
+  "Travel Blora Tuban",
+
+  "Travel Blora Lamongan",
+
+  "Travel Blora Surabaya",
+
+  "Travel Blora Juanda",
+
+  "Travel Blora Malang",
+
+  "Travel Pati Rembang",
+
+  "Travel Pati Blora",
+
+  "Travel Pati Bojonegoro",
+
+  "Travel Pati Tuban",
+
+  "Travel Pati Lamongan",
+
+  "Travel Pati Surabaya",
+
+  "Travel Pati Juanda",
+
+  "Travel Pati Malang",
+
+  "Travel Bojonegoro Rembang",
+
+  "Travel Bojonegoro Blora",
+
+  "Travel Bojonegoro Pati",
+
+  "Travel Bojonegoro Tuban",
 
   "Travel Bojonegoro Lamongan",
+
   "Travel Bojonegoro Surabaya",
+
+  "Travel Bojonegoro Juanda",
+
   "Travel Bojonegoro Malang",
 
+  "Travel Tuban Rembang",
+
+  "Travel Tuban Blora",
+
+  "Travel Tuban Pati",
+
+  "Travel Tuban Bojonegoro",
+
+  "Travel Tuban Lamongan",
+
+  "Travel Tuban Surabaya",
+
+  "Travel Tuban Juanda",
+
+  "Travel Tuban Malang",
+
+  "Travel Lamongan Rembang",
+
+  "Travel Lamongan Blora",
+
+  "Travel Lamongan Pati",
+
+  "Travel Lamongan Bojonegoro",
+
+  "Travel Lamongan Tuban",
+
   "Travel Lamongan Surabaya",
+
+  "Travel Lamongan Juanda",
+
   "Travel Lamongan Malang",
+
+  "Travel Surabaya Rembang",
+
+  "Travel Surabaya Blora",
+
+  "Travel Surabaya Pati",
+
+  "Travel Surabaya Bojonegoro",
+
+  "Travel Surabaya Tuban",
+
+  "Travel Surabaya Lamongan",
+
 
   "Travel Surabaya Malang",
 
-  "Travel Rembang Juanda",
-  "Travel Bojonegoro Juanda",
-  "Travel Tuban Juanda",
-  "Travel Lamongan Juanda",
+  "Travel Juanda Rembang",
 
-  "Travel Pati Juanda",
-  "Travel Blora Juanda",
+  "Travel Juanda Blora",
 
-  "Travel Pati Surabaya",
-  "Travel Blora Surabaya",
+  "Travel Juanda Pati",
+
+  "Travel Juanda Bojonegoro",
+
+  "Travel Juanda Tuban",
+
+  "Travel Juanda Lamongan",
 
 
-  // PP
+  "Travel Juanda Malang",
 
-  "Travel Tuban Rembang",
-  "Travel Bojonegoro Rembang",
-  "Travel Lamongan Rembang",
-  "Travel Surabaya Rembang",
   "Travel Malang Rembang",
 
-  "Travel Bojonegoro Tuban",
-  "Travel Lamongan Tuban",
-  "Travel Surabaya Tuban",
-  "Travel Malang Tuban",
+  "Travel Malang Blora",
 
-  "Travel Lamongan Bojonegoro",
-  "Travel Surabaya Bojonegoro",
+  "Travel Malang Pati",
+
   "Travel Malang Bojonegoro",
 
-  "Travel Surabaya Lamongan",
+  "Travel Malang Tuban",
+
   "Travel Malang Lamongan",
 
   "Travel Malang Surabaya",
 
-  "Travel Juanda Rembang",
-  "Travel Juanda Bojonegoro",
-  "Travel Juanda Tuban",
-  "Travel Juanda Lamongan",
-
-  "Travel Juanda Pati",
-  "Travel Juanda Blora",
-
-  "Travel Surabaya Pati",
-  "Travel Surabaya Blora",
+  "Travel Malang Juanda",
 ];
+
+
 
 $kota = [
   [
@@ -162,28 +242,29 @@ $galeri = [
 $keunggulan = [
   [
     '🚗',
-    'Armada Bersih, Nyaman & Siap Jalan',
-    'Setiap armada kami selalu dalam kondisi prima, rutin diservis, bersih, dan wangi. Kami memastikan perjalanan Anda aman serta nyaman sejak penjemputan hingga tiba di tujuan.'
+    'Armada Bersih, Nyaman & Terawat',
+    'Nikmati perjalanan dengan armada yang bersih, nyaman, dan rutin menjalani perawatan. Setiap kendaraan dipersiapkan untuk mendukung perjalanan yang aman dan menyenangkan hingga tiba di tujuan.'
   ],
 
   [
     '👨‍✈️',
-    'Driver Ramah & Profesional',
-    'Pengemudi berpengalaman yang memahami rute terbaik untuk perjalanan lebih cepat dan efisien. Keselamatan serta kenyamanan penumpang selalu menjadi prioritas utama.'
+    'Driver Berpengalaman & Profesional',
+    'Perjalanan Anda didampingi pengemudi yang ramah, berpengalaman, dan memahami berbagai rute perjalanan. Kami mengutamakan keselamatan, ketepatan waktu, serta kenyamanan setiap penumpang.'
   ],
 
   [
     '🏠',
-    'Layanan Antar Jemput Door to Door',
-    'Nikmati kemudahan ' . $brand . '  dijemput dan diantar langsung ke alamat tujuan tanpa perlu ke terminal. Lebih praktis, hemat waktu, dan tentunya lebih nyaman.'
+    'Antar Jemput Langsung ke Alamat',
+    'Bersama ' . $brand . ', Anda dapat menikmati layanan antar jemput door to door tanpa perlu repot datang ke terminal. Cukup tentukan lokasi penjemputan dan tujuan, lalu nikmati perjalanan yang lebih praktis.'
   ],
 
   [
     '🗺️',
-    'Rute Lengkap & Strategis',
-    $desc . ' Dengan jangkauan rute yang luas, kami siap mengantar Anda antar kota.'
+    'Pilihan Rute Luas & Fleksibel',
+    $desc . ' Kami melayani berbagai rute antarkota untuk membantu Anda mencapai tujuan dengan lebih mudah, praktis, dan efisien.'
   ],
 ];
+
 ?>
 
 <!DOCTYPE html>
@@ -192,6 +273,7 @@ $keunggulan = [
   class="scroll-smooth">
 
 <head>
+
   <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
@@ -207,7 +289,7 @@ $keunggulan = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PSQ884MD');
+    })(window, document, 'script', 'dataLayer', 'GTM-5DF977NR');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -245,10 +327,12 @@ $keunggulan = [
 </head>
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
+
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSQ884MD"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DF977NR"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+
   <header class="">
     <div class="container !py-4">
       <div class="flex justify-between">
@@ -555,7 +639,7 @@ $keunggulan = [
     <div class="container my-10">
       <a href="<?= $link_whatsapp ?>" target="_blank" rel="nofollow">
 
-        <img src="<?= $domain ?>src/img/Romansa-Trans.webp" class="rounded-xl shadow-md w-full md:aspect-[16/7]" alt="<?= $title ?>">
+        <img src="<?= $domain ?>src/img/Spanduk-Armada-Aprilia-Trans-Nusantara.avif" class="rounded-xl shadow-md w-full " alt="<?= $title ?>">
       </a>
     </div>
 
@@ -661,7 +745,7 @@ $keunggulan = [
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
                 <img
-                  src="<?= $domain ?>src/img/Rute-Romansa-Trans.webp"
+                  src="<?= $domain ?>src/img/rute.avif"
                   width="100%"
                   height="100%"
                   loading="lazy"
@@ -695,12 +779,15 @@ $keunggulan = [
           <div class="col-span-full md:!col-span-1  ">
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300"><?= $brand ?></h2>
+
               <p class="desc !text-slate-300 !mb-5">
-                Jadwalkan <?= $desc ?>
+                <?= $desc ?> Rencanakan perjalanan Anda lebih awal agar perjalanan berjalan lancar dan nyaman.
               </p>
+
               <p class="desc !text-slate-300 !mb-5">
-                Yuk booking <a href="https://jasatravel.web.id/rute-travel/dari-kota-surabaya/ke-kabupaten-tuban/3578/3523" class="underline" target="_blank">Travel Surabaya Tuban</a> sekarang juga bersama, prosesnya cepat dan mudah tanpa ribet, dan nikmati kemudahan pembayaran cash yang bisa dilakukan setelah kamu sampai di tujuan perjalanan.
+                Pesan <a href="https://biotrans.id/tiket/travel-tuban-surabaya/" class="underline" target="_blank" rel="noopener noreferrer">Travel Tuban Surabaya</a> sekarang bersama <?= $brand ?>. Nikmati proses pemesanan yang mudah, layanan antar jemput praktis, serta pembayaran tunai setelah tiba di tujuan. Perjalanan antarkota jadi lebih nyaman tanpa perlu repot.
               </p>
+
               <p class="desc !text-slate-300 !mb-5">
                 Layanan transportasi lain yang kami sediakan untuk anda:
               </p>
@@ -731,13 +818,14 @@ $keunggulan = [
         <div
           class="bg-gradient-to-tr from-primary to-primary-hover rounded-3xl p-8 text-center sm:p-16 md:px-24 md:py-20 lg:px-28">
           <div class="max-w-2xl mx-auto">
+
             <h2 class="text-white text-4xl">
-              Apakah anda ingin menjadwalkan <?= $brand ?>?
+              Siap Menjadwalkan Perjalanan <?= $brand ?>?
             </h2>
-            <p
-              class="max-w-lg text-base text-indigo-100 mx-auto mt-4 sm:text-lg">
-              Hubungi kami sekarang dan konsultasikan kebutuhan travel murah Anda bersama kami. Tim kami siap membantu memberikan solusi perjalanan terbaik, nyaman, aman, dan sesuai dengan kebutuhan Anda.
+            <p class="max-w-lg text-base text-indigo-100 mx-auto mt-4 sm:text-lg">
+              Rencanakan perjalanan Anda dengan lebih mudah <?= $brand ?>. Hubungi kami untuk mendapatkan informasi rute, harga tiket, dan jadwal keberangkatan. Nikmati layanan travel yang nyaman, aman, dan praktis dengan proses pemesanan yang mudah sesuai kebutuhan perjalanan Anda.
             </p>
+
           </div>
           <div
             class="flex justify-center gap-4 mt-8 sm:flex-row sm:items-center sm:gap-5">
@@ -867,9 +955,11 @@ $keunggulan = [
         <div class="">
           <div class="text-center inner-container">
             <h2 class="line-h2 text-white">Keunggulan memilih Travel Kami</h2>
+
             <p class="desc !text-slate-300 !mb-5">
-              Nikmati keunggulan layanan <?= $brand ?> yang mengutamakan kenyamanan, keamanan, dan ketepatan waktu di setiap perjalanan. Kami hadir dengan armada terawat, driver profesional, serta pelayanan ramah untuk memastikan pengalaman perjalanan yang lebih praktis, aman, dan menyenangkan bagi Anda.
+              <?= $brand ?>, nikmati perjalanan antarkota yang lebih nyaman dan praktis. Didukung armada yang terawat, pengemudi berpengalaman, serta pelayanan yang ramah, kami berkomitmen memberikan pengalaman perjalanan yang aman, menyenangkan, dan tepat waktu sesuai kebutuhan Anda.
             </p>
+
           </div>
           <div
             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:gap-x-6 gap-y-8 [&>*]:overflow-hidden [&>img]:cursor-pointer [&>img]:w-full [&>img]:object-cover [&>img]:rounded-xl [&>img]:shadow-lg [&>img]:h-72 [&>img]:transition-all [&>img]:duration-700 [&>img]:brightness-50 hover:[&>img]:brightness-90 [&>img]:col-span-full">
